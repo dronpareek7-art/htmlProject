@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.navbaar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    font-weight: bold;
+    padding: 30px;
+    
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+}
+.logo a{
+    text-decoration: none;
+}
+.list a , .logo a{
+    color: aliceblue;
+}
+.background_image{
+    background-image: url(candid-4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+   padding-top: 50vh;
+    
+    
+}
+.background_image img{
+    height: 100%;
+    width: 100%;
+}
+div h2{
+    color: rgb(235, 210, 210);
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+div h1{
+    color: white;
+    font-size:4.5rem;
+    line-height: 1;
+}
+.background_image button{
+    background-color: orangered;
+    color: white;
+    height: 70PX;
+    width: 40px;
+}
