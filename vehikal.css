@@ -103,6 +103,76 @@
   /* position: relative; */
   top: -114px;
 }
+
+.what_we_do{
+  text-align: center;
+  color: #f3f4f6;
+  height: 50px;
+  width: 500px;
+  /* text-align: center; */
+  margin: auto;
+  padding: auto;
+  
+
+}
+.box2{
+  height: 4px;
+  width: 39px;
+  border-radius: 4px;
+  background-color: orangered;
+  margin: auto;
+}
+.what_we_do h2{
+  font-style: bold;
+  font-size: 30px;
+
+  
+
+}
+.app_development_main{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  gap: 50px;
+
+}
+.app_development{
+  color: #f3f4f6;
+  text-align: start;
+  /* padding-top: 103px;
+    padding-left: 44px; */
+    padding: 128px 0px;
+  height: 65vh;
+  width: 38%;
+  margin-left: 30px;
+  
+
+}
+.app_development h2{
+font-weight: bold;
+  font-size: 30px;
+  color: #f3f4f6;
+  
+
+ 
+
+}
+.box3{
+  height: 4px;
+  width: 45px;
+  border-radius: 4px;
+  background-color: orangered;
+  margin-bottom: 25px;
+}
+.app_development_image{
+  
+  width: 45%;
+  margin-top: 50px;
+}
+.app_development_image img{
+
+  width: 100%;
+}
 .clientSection{
   background-color: rgb(22, 22, 43);
 }
@@ -111,14 +181,177 @@
   text-align: center;
   width: 450px;
   margin: 0 auto;
+  padding: 0px 0px 10px 0px;
 }
 .header h2{
-  color: #f3f4f6;
+  font-size: 30px;
+  font-weight: bold;
+  color: #f3f4f6;  
+  padding-top: 80px;
+  margin-bottom: 20px;
+}
+.box1{
+  width: 35px;
+  height: 4px;
+  border-radius: 5px;
+;
+  margin: auto;
+  background-color: orangered;
+
 }
 .header p{
   text-align: center;
-  padding: 0px 5px;
+  padding: 10px 5px;
   color: #9CA3AF;
-  font: 24px;
+  font: 37px;
+  padding-top: 20px;
   padding-bottom: 70px;
+}
+.images{
+  background-color:  rgb(22, 22, 43);
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px; */
+
+}
+
+.bankrate{
+ height: 215px;
+  width: 256px;
+padding: 32px;
+border: 1px solid #e5e7eb2c;
+border: 5px 5px;
+border-radius: 8px;
+
+}
+.bankrate img{
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%) invert(60%);
+} 
+.wework{
+    height: 215px;
+  width: 256px;
+  padding: 32px;
+border: 1px solid #e5e7eb2c;
+border-radius: 8px;
+border: 5px 5px;
+}
+.wework img{
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%) invert(60%);
+}
+.able_to {
+    height: 215px;
+  width: 256px;
+  padding: 32px;
+border: 1px solid #e5e7eb2c;
+border-radius: 8px;
+border: 5px 5px;
+
+}
+.able_to img{
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%) invert(60%);
+}
+.five_four{
+    height: 215px;
+  width: 256px;
+  padding: 32px;
+border: 1px solid #e5e7eb2c;
+border-radius: 8px;
+border: 5px 5px;
+
+  
+}
+.five_four img{
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%) invert(60%);
+}
+
+.igloo{
+    height: 215px;
+  width: 256px;
+  padding: 32px;
+border: 1px solid #e5e7eb2c;
+border-radius: 8px;
+border: 5px 5px;
+
+}
+.igloo img{
+    height: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+}
+.fleetcarma{
+    height: 215px;
+  width: 256px;
+  padding: 32px;
+border: 1px solid #e5e7eb2c;
+border-radius: 8px;
+border: 5px 5px;
+
+}
+.fleetcarma img{
+   height: 100%;
+  width: 100%;
+  filter: grayscale(100%) invert(60%);
+}
+.queens_university {
+    height: 215px;
+  width: 256px;
+border: 1px solid #e5e7eb2c;
+border-radius: 8px;
+ align-items: center;
+
+border: 5px 5px;
+ 
+}
+.queens_university img{
+  height: 100%;
+  width: 80%;
+ margin-left: 23px;
+  filter: grayscale(100%) invert(100%);
+}
+.source_day{
+    height: 215px;
+  width: 256px;
+  padding: 32px;
+border: 1px solid #e5e7eb2c;
+border-radius: 8px;
+border: 5px 5px;
+}
+.source_day img{
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%) invert(60%);
+}
+
+.boxhead{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+ padding-top: 30px;
+ padding-bottom: 20px;
+}
+.boxhead2{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+gap: 30px;
+margin-top: 10px;
+padding-bottom: 20px;
+/* margin: 20px; */
+}
+body{
+   background-color:rgb(22, 22, 43);
+   width: 100%;height: 100%;
 }
