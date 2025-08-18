@@ -48,12 +48,9 @@
   color: aliceblue;
 }
 .background_image {
-  /* height: 100%;
-  width: 100%; */
+  
   text-align: center;
-  /* padding-top: 50vh; */
-  /* position: absolute; */
-  /* opacity:0.8; */
+  
   color: white;
   width: 60%;
   /* background-color: blue; */
@@ -79,21 +76,13 @@
   color: rgb(235, 210, 210);
   font-size: 2.25rem;
   padding-bottom: 3vh;
-  /* line-height: 2.5rem; */
-  /* position: relative; */
-  /* top: -143px; */
-  /* right: 5px; */
-  /* justify-content: center; */
+  
 }
 .background_image h1 {
   color: white;
   font-size: 4.5rem;
   line-height: 1;
-  /* position: relative; */
-  /* top: -137px; */
-  /* padding-left: 380px; */
-  /* align-items: center; */
-  /* width: 967px; */
+  
 }
 
 .button {
@@ -144,10 +133,10 @@
   text-align: start;
   /* padding-top: 103px;
     padding-left: 44px; */
-  padding: 128px 0px;
+padding: 30px 20px;
   height: 65vh;
   width: 41%;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 .app_development p {
   line-height: 4.5vh;
@@ -178,36 +167,53 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 80px;
   gap: 50px;
 }
 .technical_leadership {
   color: #9ca3af;
-  text-align: end;
-  /* padding: 0px 50vh; */
-  /* height: 65vh;
-  width: 38%; */
+  text-align: start;
+  /* padding-top: 103px;
+    padding-left: 44px; */
+padding: 30px 20px;
+  height: 65vh;
+  width: 41%;
+  /* margin-left: 30px; */
+  
 }
 .technical_leadership_image {
   height: 100vh;
   width: 48%;
   /* padding: 120px 0px; */
 }
+.technical_leadership p{
+  line-height: 4.5vh;
+  font-size: 20px;
+}
 .technical_leadership_image img {
   width: 100%;
 }
 .technical_leadership h2 {
   color: #f3f4f6;
-  padding-left: 11vh;
+  /* padding-left: 11vh; */
+  padding: 8px 0px;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 27px;
+}
+.box12{
+   height: 4px;
+  width: 45px;
+  border-radius: 4px;
+  background-color: orangered;
+  margin-bottom: 25px;
+
 }
 .product_design_main {
   padding-top: 15vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 10px;
   gap: 30px;
   padding-bottom: 20vh;
 }
@@ -228,6 +234,7 @@
 .product_design p {
   padding-top: 3vh;
   line-height: 5vh;
+  font-size: 20px;
 }
 .box4 {
   height: 0.5vh;
